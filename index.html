@@ -345,14 +345,13 @@ function openLetter() {
         music.volume = 0.2;
         music.play();
         
-        // Listener robusto para el cambio de canción
         music.addEventListener('ended', function() {
             currentSongIndex++;
             if(currentSongIndex >= playlist.length) {
                 currentSongIndex = 0; // Bucle
             }
             music.src = playlist[currentSongIndex];
-            music.load(); // Importante para navegadores móviles
+            music.load();
             music.play();
         }, false);
     }
@@ -381,14 +380,14 @@ function openLightbox(imgElement) {
 </script>
 
 <script type="text/javascript">
-var sc_project=13204727; 
+var sc_project=13204758; 
 var sc_invisible=1; 
-var sc_security="6e6340e0"; 
+var sc_security="ac9b0343"; 
 </script>
 <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-<noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/13204727/0/6e6340e0/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/13204758/0/ac9b0343/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 </body>
 </html>
 
- 
+
